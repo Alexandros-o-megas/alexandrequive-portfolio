@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const repoName = "portfolio";
+const repoName = "alexandrequive-portfolio";
 
 const nextConfig: NextConfig = {
   output: "export",
