@@ -216,7 +216,7 @@ export default function Home() {
       <header className="topbar">
         <a className="brand" href="#home" aria-label="Alexandre Quive home">
           <span className="brand-mark">AQ</span>
-          <span>alexandre<span className="accent">.dev</span></span>
+          <span>alexandrequive<span className="accent">.dev</span></span>
         </a>
         <nav className="nav-links" aria-label="Main navigation">
           <a href="#about">{t.navAbout}</a>
@@ -236,7 +236,7 @@ export default function Home() {
       <section className="hero section-wrap" id="home">
         <div className="hero-copy">
           <div className="eyebrow"><span className="status-dot" /> {t.status}</div>
-          <p className="prompt-line"><span>alexandre@dev</span>:~$ {t.prompt}</p>
+          <p className="prompt-line"><span>alexandrequive@dev</span>:~$ {t.prompt}</p>
           <h1>{t.headline}<br /><span className="gradient-text">{t.highlight}</span></h1>
           <p className="hero-intro">{t.intro}</p>
           <div className="hero-actions">
@@ -246,7 +246,7 @@ export default function Home() {
           <div className="social-line">
             <a href="https://github.com/Alexandros-o-megas" target="_blank" rel="noreferrer">GitHub ↗</a>
             <span className="separator">/</span>
-            <a href="https://www.linkedin.com/in/alexandrequive/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="https://www.linkedin.com/in/alexandre-quive/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
             <span className="separator">/</span>
             <span>Maputo, MZ</span>
           </div>
@@ -361,16 +361,16 @@ export default function Home() {
           <h2>{t.contactTitle}</h2>
           <p>{t.contactText}</p>
           <div className="contact-actions">
-            <a className="button button-primary" href="mailto:SEU_EMAIL_AQUI">{t.email} ↗</a>
+            <a className="button button-primary" href="https://mail.google.com/mail/?view=cm&to=quivealexandre@gmail.com" target="_blank" rel="noopener noreferrer"> {t.email} ↗</a>
             <a className="button button-ghost" href="https://github.com/Alexandros-o-megas" target="_blank" rel="noreferrer">{t.github} ↗</a>
-            <a className="button button-ghost" href="https://www.linkedin.com/in/alexandrequive/" target="_blank" rel="noreferrer">{t.linkedin} ↗</a>
+            <a className="button button-ghost" href="https://www.linkedin.com/in/alexandre-quive/" target="_blank" rel="noreferrer">{t.linkedin} ↗</a>
           </div>
-          <div className="contact-prompt"><span className="term-green">alexandre@dev:~$</span> echo &quot;{t.terminalLine}&quot;</div>
+          <div className="contact-prompt"><span className="term-green">alexandrequive@dev:~$</span> echo &quot;{t.terminalLine}&quot;</div>
         </div>
       </section>
 
       <footer className="footer section-wrap">
-        <a className="brand" href="#home"><span className="brand-mark">AQ</span><span>alexandre<span className="accent">.dev</span></span></a>
+        <a className="brand" href="#home"><span className="brand-mark">AQ</span><span>alexandrequive<span className="accent">.dev</span></span></a>
         <p>© {new Date().getFullYear()} Alexandre Quive</p>
         <p className="footer-note">{t.footer}</p>
       </footer>
